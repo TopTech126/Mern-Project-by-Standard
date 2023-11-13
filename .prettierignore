@@ -1,0 +1,4 @@
+/node_modules
+/view/client/build
+/view/client/node_modules
+/view/client/public

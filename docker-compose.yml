@@ -1,0 +1,41 @@
+version: '3.7'
+
+services:
+  server:
+    build:
+      context: /home/Devang/Desktop/Projects/Backend-Repo
+      dockerfile: Dockerfile
+    image: server
+    container_name: ieee-server
+    command: yarn start
+    volumes:
+      - /home/Devang/Desktop/Projects/Backend-Repo/node_modules
+    ports:
+      - '5000:5000'
+    networks:
+      - app-network
+  # client:
+  #   build:
+  #     context: /home/Devang/Desktop/Projects/oce007/view
+  #     dockerfile: Dockerfile
+  #   image: client
+  #   container_name: codex-client
+  #   command: yarn start
+  #   volumes:
+  #     - /home/Devang/Desktop/Projects/oce007/view/node_modules
+  #   depends_on:
+  #     - server
+  #   ports:
+  #     - '3000:3000'
+  #   networks:
+  #     - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  data-volume:
+  node_modules:
+  web-root:
+    driver: local

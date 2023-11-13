@@ -1,0 +1,32 @@
+{
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "'Operator Mono Lig', Consolas,'Operator Mono Lig',monospace",
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "javascript.format.enable": false,
+  "spellright.language": ["en"],
+  "spellright.documentTypes": ["markdown", "latex"],
+  "workbench.editor.enablePreview": false,
+  "workbench.colorCustomizations": {
+    "sash.hoverBorder": "#a1ccfb"
+  },
+  "peacock.color": "#70b1f9"
+}
