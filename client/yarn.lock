@@ -3842,7 +3842,7 @@ __metadata:
     react-facebook-login: ^4.1.1
     react-google-login: ^5.2.2
     react-helmet: ^6.1.0
-    react-jwt: ^1.1.4
+    react-jwt: ^1.2.0
     react-router-dom: ^5.3.0
     react-scripts: 5.0.0
     react-toastify: ^8.1.0
@@ -9783,12 +9783,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-jwt@npm:^1.1.4":
-  version: 1.1.4
-  resolution: "react-jwt@npm:1.1.4"
+"react-jwt@npm:^1.2.0":
+  version: 1.2.1
+  resolution: "react-jwt@npm:1.2.1"
+  dependencies:
+    fsevents: ^2.3.2
   peerDependencies:
-    react: ^16.0.0 || ^17.0.0
-  checksum: 099cf53435c096854333085c8f9aae89bbbce7a98ab75ae55d20c407f712de92bb3837f94fdd25b4138c87a02a660eeb48f682bfa2d4e197f4d05244c77b6376
+    react: ^16.0.0 || ^17.0.0 || ^18.0.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  checksum: c3b20a6d431e6fab6573345b802097c9d4759ecddf64a6a2a9da82847d5520528bb7669d845ee20072463d497b1f3d15acdd37faace788cfa31342f34962348c
   languageName: node
   linkType: hard
 
