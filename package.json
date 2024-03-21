@@ -25,7 +25,7 @@
     "joi": "^17.5.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.1.6",
-    "nodemailer": "^6.7.2",
+    "nodemailer": "^6.9.9",
     "nodemon": "^2.0.15",
     "pusher": "^5.0.0",
     "redis": "^4.0.1",
